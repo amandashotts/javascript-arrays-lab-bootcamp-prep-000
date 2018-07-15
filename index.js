@@ -17,6 +17,6 @@ function destructivelyRemoveLastKitten () {
   kittens.pop();
 } 
 
-function appendKitten () {
-  kittens["Ted"];
+function appendKitten (name) {
+  kittens.splice(0,0,name);
 } 
