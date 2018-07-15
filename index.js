@@ -18,5 +18,5 @@ function destructivelyRemoveLastKitten () {
 } 
 
 function appendKitten (name) {
-  kittens.splice(0,0,name);
+ return kittens.splice(0,0,name);
 } 
